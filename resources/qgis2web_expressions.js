@@ -763,30 +763,3 @@ function fnc__specialcol_(values, context) {
 function fnc_project_color(values, context) {
     return false;
 };
-
-
-
-function exp_CarrresetsitesdintretgologiquedupaysdeLorient_14rule0_eval_expression(context) {
-    // Type = 'Ancienne carrière'
-
-    var feature = context.feature;
-    
-    if (feature.properties) {
-        return (feature.get('Type')  == 'Ancienne carrière');
-    } else {
-        return (feature.get('Type')  == 'Ancienne carrière');
-    }
-}
-
-
-function exp_CarrresetsitesdintretgologiquedupaysdeLorient_14rule1_eval_expression(context) {
-    // Type = 'Carrière en activité'
-
-    var feature = context.feature;
-    
-    if (feature.properties) {
-        return (feature.get('Type')  == 'Carrière en activité');
-    } else {
-        return (feature.get('Type')  == 'Carrière en activité');
-    }
-}
